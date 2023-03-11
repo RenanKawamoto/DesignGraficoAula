@@ -38,8 +38,8 @@ img = Image.open("teste2.jpg")
 
 img = np.asarray(img, dtype=np.float32)/255
 
-img2 = rotacionarEm90ParaEsquerda(img)
-#img2 = rotacionarEm90ParaDireita(img)
+#img2 = rotacionarEm90ParaEsquerda(img)
+img2 = rotacionarEm90ParaDireita(img)
 
 plt.figure(figsize=(5,5))
 im = plt.imshow(img2, aspect="equal")
